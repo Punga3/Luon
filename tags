@@ -1,0 +1,30 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+D	core.py	/^def D(num):$/;"	f
+Person	core.py	/^class Person:$/;"	c
+__init__	core.py	/^    def __init__(self,name,strspi,strspin,dexrob,dexrobn,weapon):$/;"	m	class:Person
+d	sim.py	/^d = 0$/;"	v
+getAtk	core.py	/^    def getAtk(self):$/;"	m	class:Person
+getDex	core.py	/^    def getDex(self):$/;"	m	class:Person
+getDodge	core.py	/^    def getDodge(self):$/;"	m	class:Person
+getMaxHp	core.py	/^    def getMaxHp(self):$/;"	m	class:Person
+getRob	core.py	/^    def getRob(self):$/;"	m	class:Person
+getSpi	core.py	/^    def getSpi(self):$/;"	m	class:Person
+getStr	core.py	/^    def getStr(self):$/;"	m	class:Person
+hit	core.py	/^    def hit(self,other,mod=0):$/;"	m	class:Person
+i	singleBattle.py	/^i=0$/;"	v
+isDead	core.py	/^    def isDead(self):$/;"	m	class:Person
+p	stats.py	/^p = Person("Test",10,2,60,3,weaponSword)$/;"	v
+personD	sim.py	/^    personD = Person("D",50,-3,200,-2,weaponDagger)$/;"	v
+personD	singleBattle.py	/^personD = Person("D",50,-3,2000,5,weaponDagger)$/;"	v
+personS	sim.py	/^    personS = Person("S",40,-2,60,5,weaponSword)$/;"	v
+personS	singleBattle.py	/^personS = Person("S",40,-2,60,3,weaponSword)$/;"	v
+random	core.py	/^import random$/;"	i
+random	sim.py	/^import random$/;"	i
+vHit	core.py	/^    def vHit(self,other,mod=0):$/;"	m	class:Person
+weaponDagger	core.py	/^def weaponDagger(str,dex):$/;"	f
+weaponSword	core.py	/^def weaponSword(str,dex):$/;"	f
